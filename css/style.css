@@ -1,0 +1,118 @@
+body {
+    padding-top: 50px;
+    font-family: "Lato", sans-serif!important;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.padding-top-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding-top {
+    padding-top: 30px;
+}
+
+.link {
+    fill: none;
+    stroke: #CCC8C8;
+    stroke-width: 0.5px;
+}
+
+text {
+    font: 10px "Lato";
+    pointer-events: none;
+}
+
+.justified {
+    position: absolute;
+    left: 50%;
+}
+
+#contacts {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.background-grey {
+    background-color: #F3F3F3;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.section-header {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.spacer {
+    background: #1f2b39;
+    width: 100px;
+    height: 2px;
+    margin: auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.background-grey {
+    background: #f7f7f7;
+}
+
+#profile-info {
+    padding-top: 50px;
+}
+
+.thin-text {
+    font-weight: 300;
+}
+
+.additional-padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.remove-padding-bottom {
+    padding-bottom: 10px;
+}
+
+.navbar-inverse {
+    border: none;
+    display: inline-block;
+    text-align: center;
+    positionac: fixed;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    padding: 0;
+
+    list-style: none;
+    display: inline-block;
+    float: none;
+}
+
+.links {
+    margin-top: 50px;
+}
+
+.links li {
+    padding-right: 15px;
+}
+
+@media (min-width: 769px) {
+    .navbar-inverse {
+        height: 50px;
+    }
+} 
