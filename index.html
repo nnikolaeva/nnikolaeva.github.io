@@ -13,7 +13,7 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -26,17 +26,16 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav text-uppercase" id="main-menu">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#page-home">Home</a></li>
                     <li><a href="#page-projects">Projects</a></li>
                     <li><a href="#page-work-experience">Work experience</a></li>
                     <li><a href="#page-skills">Skills</a></li>
-
                 </ul>
             </div>
         </div>
     </div>
 
-    <section class="background-grey">
+    <section class="background-grey" id="page-home">
         <div class="container padding-top-bottom">
             <div class="row">
                 <div id="profile-info" class="col-md-12 text-center">
